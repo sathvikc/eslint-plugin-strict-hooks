@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-strict-hooks",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test:sandbox": "node scripts/dev-test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "react",
+    "hooks",
+    "dependencies"
+  ],
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "eslint-utils": "^3.0.0"
+  }
+}
