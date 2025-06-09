@@ -6,10 +6,7 @@ module.exports = {
   },
   plugins: ["react-hooks", "strict-hooks"],
   rules: {
-    "strict-hooks/require-exhaustive-deps-comment": ["warn", {
-      enabledHooks: ["useEffect", "useMemo", "useCallback"],
-      requireCommentPerDependency: true
-    }],
+    "strict-hooks/explicit-exhaustive-deps-disable": "warn",
     "react-hooks/exhaustive-deps": "warn"
   }
 };
